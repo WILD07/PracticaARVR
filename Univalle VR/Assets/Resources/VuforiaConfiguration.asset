@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AYYy71X/////AAABmYmGwhekgkkAv3dih1pLJpdpqVYjTdvI74xVP+ChZbowgQWV4JHfe9Zg7l2/kTYaKKvK2bD5lEHeoWbqaOer4HbWG+V0F2yKoBSNfzhEhb34Ka4M5cgL0V/kOAsNTYakjHKa5v9rbMQnAwsVHSr6CxtdCSNkbzxAYeqXHWVpfpsyJkTqH0qiZ0RGVFtbgQIISVvVyKX8d9xbjTet/SCN9aanT8Q5j/OX0P10e3SwaZHD6RDlq7WxGWTrHqnz1TQyCZh0rkGLzUtpz7pRQFiJSslnxTVCWFXHSnRIznLmuaASZoDCE06cV4i3e6Gvjh9dRABh4YZQMQx0Tl+CGN9Mv/8+C7m/4ppdzYT/jYGcJNGF
-    ufoLicenseKey: QVZHK1lGUC8vLy8vQUFBQUtLNWk1d2V2NTBQcGxuekRQTHZYZEJ4N242NUVMekFCY1lEQ2VlWU1jejlLSi81YWY1akl6WWtYVmtMdy9ERm55OEtlbUU5aFMzOUZRelhsRk81T3llMElmcTdHTU1JKzlOLzVHTW9qNCtFSFZ6MjFHV2VIR05wdEwzamwvUmF0SFlnWlc1aDA1dE9UN1dybHRvUmNxcXl5Y2o0ZGhTbS9DTHdHKzh5N1BpMUhqMjhrU0RDc3BuVjN3Ulk3N3l0WEt2T0k3SjVxcXZicCtYWXU0RWxFZlpZd0UzVkVLd0Y5QTdid1A4NldiM0JtTWhOdHUzZWtpbTdnbmhCcFc4Z2hUSmlpNk02RXNmV3QwQ3FJLzNrV2M1OGJDYmxnenhwYWtKMm9kOXRvc2dJUmttbGRwQktVVVJVejB1YngxcFZpSnhWZEZKMTkrbVVtSUxReEtKbVV4RTNYMFFMTzQwTW5pY3lhbXlESE8rVjE=
+    ufoLicenseKey: QWR4QkthWC8vLy8vQUFBQUtGcUdvMVlKNGtyd29BTEI2VTJpTUVGMGxhWFF0K2hKY3JmV3htUTQ5WnQxSVM5ZmhFWTRkTmgzSFp2MDhON29kemhaMUsyOXoyVFNQVHR1TFdLUG1IcVdORWwxa3lJRTU4TmdnZG0yOGhSaGxJZ0h0WThyb1JleExkQXlPRUNBZkNsUlcyS3VSTWJDV3VsTWJHbVQ2WVQ2dFc3c1FVRVoreHhSM1hzTEY4aG1rRFVKb3pFU2VNY1crR0V0Z0dCL3RlNlFHTWhkRHA0R2RkMmNyTUhrZUsreFdkVTcyTkg1VlYwTk1ZbjJNdlRScU9aY3MxOFllWVFyQzdqTmhLaFRGUGNEZWs2UXk3Vmo3TGF6VVhEKy9SOU8ybGxlZmpXOTRLTFpZZGpkZTVKcGIxak1peHpRNWt4aC8wVFlMMDBLaDV4L2I5MWViRHE1R3gzN29MajF1bmlwRk4wZmtzdzVmZjc0eFBkbVR6ZXc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -21,6 +21,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
+    version: 7.2.23
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -52,11 +53,12 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 0
+    trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
+    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
